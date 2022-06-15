@@ -1,0 +1,75 @@
+:root{
+  --padding: 2em;
+  --height: 25vh;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  border: 0;
+}
+main{
+  display: flex;
+  font-family: 'Lexend Deca', sans-serif;
+  width: 50%;
+  margin: auto;
+  height: 100vh;
+  align-items: center;
+}
+.icon{
+  padding-bottom: 2.5em;
+}
+h3{
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  font-size: 2em;
+}
+.sedans{
+  background-color: hsl(31, 77%, 52%); /*bright orange color*/
+  padding: var(--padding);
+  align-content: center;
+}
+.suvs{
+  background-color: hsl(184, 100%, 22%);/*dark cyan*/
+  padding: var(--padding);
+}
+.luxury{
+  background-color: hsl(179, 100%, 13%);/*very dark cyan*/
+  padding: var(--padding);
+}
+button{
+  padding: 0.8em 2em;
+  border-radius: 2rem;
+  margin-top: 7em;
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: hsla(0, 0%, 100%, 0.75);
+}
+.very-dark-cyan button{
+  color: hsl(179, 100%, 13%);background-color: hsla(0, 0%, 100%, 0.75);
+}
+.dark-cyan button{
+  color: hsl(184, 100%, 22%);
+}
+.bright-orange button{
+  color: hsl(31, 77%, 52%);
+}
+.very-dark-cyan button:active{
+  background-color: hsl(179, 100%, 13%);
+  color: hsla(0, 0%, 100%, 0.75);
+  border: 0.15em solid hsla(0, 0%, 100%, 0.75);
+}
+.dark-cyan button:active{
+  background-color: hsl(184, 100%, 22%);
+  color: hsla(0, 0%, 100%, 0.75);
+  border: 0.15em solid hsla(0, 0%, 100%, 0.75);
+}
+.bright-orange button:active{
+  background-color: hsl(31, 77%, 52%);
+  color: hsla(0, 0%, 100%, 0.75);
+  border: 0.15em solid hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+
